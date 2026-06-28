@@ -1,0 +1,47 @@
+.popx-input-container {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.popx-input-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.popx-input-label {
+  position: absolute;
+  top: -8px;
+  left: 12px;
+  background-color: var(--bg-color);
+  padding: 0 4px;
+  font-size: 13px;
+  color: var(--primary);
+  font-weight: 600;
+  z-index: 1;
+}
+
+.popx-input-required {
+  color: var(--error);
+}
+
+.popx-input-field {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background-color: transparent;
+  font-size: 15px;
+  color: var(--text-main);
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.popx-input-field:focus {
+  border-color: var(--primary);
+}
+
+.popx-input-field::placeholder {
+  color: var(--text-muted);
+}

@@ -1,0 +1,10 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.welcome-content {
+  margin-top: auto;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+.auth-page h1 {
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.auth-form {
+  margin-top: 32px;
+}
+
+.login-btn {
+  margin-top: 8px;
+}
